@@ -21,6 +21,7 @@ body{
   width: 100%;
   position: relative;
 	overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .set_my_drop{

@@ -2,7 +2,7 @@ import './App.css';
 import Skills from './Skills';
 import React, { useRef} from 'react';
 import emailjs from '@emailjs/browser';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import img from './Assets/img.jpg';
 import classes from './Home.module.css'
 import base_img from './Assets/profile_pic.png'
@@ -13,11 +13,17 @@ import certificate from './certificates';
 import gitgub from "./Assets/github.svg"
 import linkedin from "./Assets/linkedin.svg"
 import discord from "./Assets/discord.svg"
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 import insta from "./Assets/insta.svg"
 import classess from "./LightDarkButton.module.css";
 
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({duration: 2000});
+  },[]);
 
   const [theme, setTheme] = useState("dark");
   const toggleTheme = () => {
@@ -35,6 +41,7 @@ function App() {
 
   const form = useRef();
   const [navbar, setnavbar] = useState(false);
+  const [tt,settt] = useState(false);
   const [achieve, setachieve] = useState(false);
   const [dropdown, setDropdown] = useState(false);
   const [connect, setConnect] = useState(false);
@@ -131,7 +138,7 @@ function App() {
 
         {/* top contect; left part */}
         <div className={classes.top_body} id="home">
-          <div className={classes.left_part}>
+          <div className={classes.left_part} data-aos="zoom-out-left">
             <h1 className={classes.main}>Hi,<br></br> I'm <span className={classes.name}>Shweta</span></h1>
             <p className={classes.time}>Web & Android Developer</p>
             <a href='#ContactMe' className={classes.hire}>Hire Me <span class="material-symbols-outlined">
@@ -143,7 +150,7 @@ function App() {
           <img className={classes.main_img} alt='' src={base_img} />
 
           {/* top content; right part */}
-          <div className={classes.right_part}>
+          <div className={classes.right_part} data-aos="zoom-out-right">
             <p className={classes.t}>Expert on</p>
             <p className={classes.p}>Based in India <br /> i'm developer and <br />UI/UX designer.
             </p>
@@ -160,12 +167,12 @@ function App() {
       {/* part2 : About Me section */}
       <div id="aboutMe" className={`${classes.got_to_part} ${theme === "light" ? classes.light : classes.dark}`}></div>
       <div className={`${classes.part2} ${theme === "light" ? classes.light : classes.dark}`}>
-        <img src={img} alt='' className={classes.about_img} />
+        <img src={img} alt='' className={classes.about_img} data-aos="flip-left"/>
 
         <div className={classes.about_ifo}>
           <h3 className={classes.about_h}>About Me</h3>
           <div className={classes.br}></div>
-          <p className={classes.about_me}>
+          <p className={classes.about_me} data-aos="fade-right">
             My name is Shweta Mandal. I'm an B. E. student at D. Y. Patil College Of Enineering, Akurdi in the Computer Science Department.<br /><br /> I was born in West Bengal and have travelled to different parts of India while studying in Delhi, Bangalore and Pune due to my father's transferable job.
             <br /><br />
             I am currently in the third year of my College and have been part of various clubs - GDSC, ACES etc. I like to explore new technologies and domains and have experimented with few of them. I might not know everything but I am a fast learner and can adapt to anything new.
@@ -183,7 +190,7 @@ function App() {
         <div className={classes.all_project}>
           {
             AllProject.map((e) => {
-              return <ProjectComp prop={e} />
+              return <ProjectComp prop={e}/>
             })
           }
         </div>
@@ -199,7 +206,7 @@ function App() {
           {
             Skills.map((e) => {
               console.log(e)
-              return <div className={classes.single_skill}>
+              return <div className={classes.single_skill} data-aos="flip-right">
                 <div className={classes.upper_skill}></div>
                 <img src={e.imgLink} alt='' className={classes.skillimg} />
                 <h2 className={classes.skill_name}>{e.name}</h2>
@@ -226,7 +233,7 @@ function App() {
 
         <button className={`${classes.connect_btn} ${connect === true ? classes.yes : classes.no} `} onClick={HandleConnect}>LET'S CONNECT</button>
 
-        <form name="myContact" className={classes.contactform} ref={form} onSubmit={sendEmail}>
+        <form name="myContact" className={classes.contactform} ref={form} onSubmit={sendEmail} data-aos="flip-left">
           <label className={classes.label}>Name</label>
           <input type='text' className={classes.input} required value={userdata
             .name} onChange={(e) => setuserdata({ ...userdata, name: e.target.value })} name="from_name"></input>
@@ -251,7 +258,7 @@ function App() {
       {/* Last Part : Footer section */}
       <div className={classes.footer}>
         <p className={classes.endNode}>Copyright 2023</p>
-        <a href="#home" className={classes.endname}>Shweta Mandal</a>
+        <a href="#home" className={classes.endname} >Shweta Mandal</a>
         <div className={classes.fill_line}></div>
         <div className={classes.cred}>
           <a href="https://www.instagram.com/glowing_blossom_shweta/" target="_blank" rel='noreferrer'><img src={insta} alt="" className={classes.icon} /></a>
