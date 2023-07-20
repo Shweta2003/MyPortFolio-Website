@@ -1,0 +1,33 @@
+.out_toggle{
+  width: 90px;
+  margin-top: -20px;
+  margin-left: 20px;
+  background-color: black;
+  height: 50px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.out_toggle.on{
+  background-color: rgb(73, 103, 156);
+}
+
+.btn{
+  width: 35px;
+  background-color: white;
+  height: 35px;
+  margin-left: 7px;
+  margin-top: 7px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.out_toggle.on .btn{
+  margin-left: 48px;
+}
+
+@media screen and (max-width:1030px) {
+  .out_toggle{
+    margin-top: 0px;
+  }
+}
