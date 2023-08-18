@@ -152,12 +152,12 @@ function App() {
           {/* top content; right part */}
           <div className={classes.right_part} data-aos="zoom-out-right">
             <p className={classes.t}>Expert on</p>
-            <p className={classes.p}>Based in India <br /> i'm developer and <br />UI/UX designer.
+            <p className={classes.p}>Based in India <br /> I'm developer and <br />UI/UX designer.
             </p>
             <p className={classes.q}>Are you looking for new and skilled hands to work on new projects? Do you want to start something new? <br /> Shake Hands with me!!</p>
 
             {/* download CV */}
-            <a href={doc} className={classes.download} download="resume.pdf">Dowload CV<span class="material-symbols-outlined as">
+            <a href={doc} className={classes.download} download="resume.pdf">Download CV<span class="material-symbols-outlined as">
               download
             </span></a>
           </div>
@@ -173,7 +173,7 @@ function App() {
           <h3 className={classes.about_h}>About Me</h3>
           <div className={classes.br}></div>
           <p className={classes.about_me} data-aos="fade-right">
-            My name is Shweta Mandal. I'm an B. E. student at D. Y. Patil College Of Enineering, Akurdi in the Computer Science Department.<br /><br /> I was born in West Bengal and have travelled to different parts of India while studying in Delhi, Bangalore and Pune due to my father's transferable job.
+            My name is Shweta Mandal. I'm an B. E. student at D. Y. Patil College Of Engineering, Akurdi in the Computer Science Department.<br /><br /> I was born in West Bengal and have travelled to different parts of India while studying in Delhi, Bangalore and Pune due to my father's transferable job.
             <br /><br />
             I am currently in the third year of my College and have been part of various clubs - GDSC, ACES etc. I like to explore new technologies and domains and have experimented with few of them. I might not know everything but I am a fast learner and can adapt to anything new.
             <br /><br />
