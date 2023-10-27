@@ -1,10 +1,24 @@
 const AllProject = [
     {
+        ProjectImg:"https://user-images.githubusercontent.com/65994349/261809057-9094267b-f4ad-462a-b5e5-b35a69b99c03.png",
+        ProjectLink:"https://web3-social-media-app.vercel.app/",
+        ProjectName:"Github_in_Web3",
+        ProjectTech:"HTML,CSS,Javascript",
+        Projectetc:"ReactJS | Web3 | Solidity"
+    },
+    {
         ProjectImg:"https://user-images.githubusercontent.com/65994349/239700684-8e889a7c-3508-4b72-9a01-eadadd763d0f.png",
         ProjectLink:"https://github.com/Shweta2003/SAHARA",
         ProjectName:"SAHARA",
         ProjectTech:"HTML,CSS,Javascript",
         Projectetc:"ReactJS | FirBase | EmailJS"
+    },
+    {
+        ProjectImg:"https://user-images.githubusercontent.com/65994349/277127698-785211e9-72bd-414b-8413-0ff513981d33.png",
+        ProjectLink:"https://github.com/Shweta2003/Gym-Scheduler",
+        ProjectName:"GYM SCHEDULER",
+        ProjectTech:"HTML,CSS,Javascript",
+        Projectetc:"ReactJS | MySQL"
     },
     {
         ProjectImg:"https://user-images.githubusercontent.com/65994349/237294904-5b83b513-e8b6-4b10-af6a-26dfd1e4471d.png",
