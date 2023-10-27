@@ -14,6 +14,13 @@ const AllProject = [
         Projectetc:"ReactJS | FirBase | EmailJS"
     },
     {
+        ProjectImg:"https://user-images.githubusercontent.com/65994349/278706504-f2f8e50e-af7c-4bee-acd0-1832918d4ea8.png",
+        ProjectLink:"https://github.com/DSC-DYPCOE/GDSC_Web_Frontend",
+        ProjectName:"GDSC Website",
+        ProjectTech:"HTML,CSS,Javascript",
+        Projectetc:"ReactJS | FirBase | EmailJS"
+    },
+    {
         ProjectImg:"https://user-images.githubusercontent.com/65994349/277127698-785211e9-72bd-414b-8413-0ff513981d33.png",
         ProjectLink:"https://github.com/Shweta2003/Gym-Scheduler",
         ProjectName:"GYM SCHEDULER",
