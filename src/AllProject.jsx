@@ -74,7 +74,7 @@ const AllProject = [
         ProjectLink:"https://movierecommendationsystem-auetnisny8mee5pa9mmsas.streamlit.app/",
         ProjectName:"Movie Recommendation System",
         ProjectTech:"Machine Learning",
-        Projectetc:ML | Streamlit | TBDB API"
+        Projectetc:"ML | Streamlit | TBDB API"
     },
     {
         ProjectImg:"https://user-images.githubusercontent.com/65994349/211143087-9d4f86c1-4a05-45f2-922c-84800ed2c1aa.png",
