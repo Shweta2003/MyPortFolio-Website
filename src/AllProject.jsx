@@ -7,13 +7,6 @@ const AllProject = [
         Projectetc:"ReactJS | Redux | Firebase"
     },
     {
-        ProjectImg:"https://user-images.githubusercontent.com/65994349/261809057-9094267b-f4ad-462a-b5e5-b35a69b99c03.png",
-        ProjectLink:"https://web3-social-media-app.vercel.app/",
-        ProjectName:"Github_in_Web3",
-        ProjectTech:"HTML,CSS,Javascript",
-        Projectetc:"ReactJS | Web3 | Solidity"
-    },
-    {
         ProjectImg:"https://user-images.githubusercontent.com/65994349/239700684-8e889a7c-3508-4b72-9a01-eadadd763d0f.png",
         ProjectLink:"https://github.com/Shweta2003/SAHARA",
         ProjectName:"SAHARA",
@@ -91,6 +84,13 @@ const AllProject = [
         Projectetc:"HTML | RapidAPI | CSS"
     },
     {
+        ProjectImg:"https://github.com/Shweta2003/Gym-Scheduler/assets/65994349/8b328e99-5399-46fe-9a0e-921a1d69093c",
+        ProjectLink:"https://gym-scheduler.vercel.app/",
+        ProjectName:"GYM SCHEDULER",
+        ProjectTech:"ReactJS",
+        Projectetc:"ReactJS | MySQL | Javascript"
+    },
+    {
         ProjectImg:"https://user-images.githubusercontent.com/65994349/210196499-ae0a327c-367a-4270-82de-1051ad74d77e.png",
         ProjectLink:"https://github.com/Shweta2003/todo-list",
         ProjectName:"TODO List",
@@ -117,6 +117,13 @@ const AllProject = [
         ProjectName:"Learn Alphabets",
         ProjectTech:"Kotlin",
         Projectetc:"Android Studio | Kotlin | Android"
+    },
+    {
+        ProjectImg:"https://user-images.githubusercontent.com/65994349/261809057-9094267b-f4ad-462a-b5e5-b35a69b99c03.png",
+        ProjectLink:"https://web3-social-media-app.vercel.app/",
+        ProjectName:"Github_in_Web3",
+        ProjectTech:"HTML,CSS,Javascript",
+        Projectetc:"ReactJS | Web3 | Solidity"
     },
 
 ]
