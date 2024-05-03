@@ -117,7 +117,7 @@ const AllProject = [
         ProjectName:"Github_in_Web3",
         ProjectTech:"HTML,CSS,Javascript",
         Projectetc:"ReactJS | Web3 | Solidity"
-    },
+    }
 
 ]
 
