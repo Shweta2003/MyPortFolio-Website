@@ -1,5 +1,12 @@
 const AllProject = [
     {
+        ProjectImg:"https://github.com/Shweta2003/resume-builder_/assets/65994349/0b1f3f41-6c58-42c0-b226-ff01fd33ef73",
+        ProjectLink:"https://ai-jobkit.web.app/",
+        ProjectName:"Resume Builder",
+        ProjectTech:"React",
+        Projectetc:"ReactJS | Redux | Firebase"
+    },
+    {
         ProjectImg:"https://user-images.githubusercontent.com/65994349/261809057-9094267b-f4ad-462a-b5e5-b35a69b99c03.png",
         ProjectLink:"https://web3-social-media-app.vercel.app/",
         ProjectName:"Github_in_Web3",
@@ -17,6 +24,13 @@ const AllProject = [
         ProjectImg:"https://user-images.githubusercontent.com/65994349/278706504-f2f8e50e-af7c-4bee-acd0-1832918d4ea8.png",
         ProjectLink:"https://github.com/DSC-DYPCOE/GDSC_Web_Frontend",
         ProjectName:"GDSC Website",
+        ProjectTech:"HTML,CSS,Javascript",
+        Projectetc:"ReactJS | FirBase | EmailJS"
+    },
+    {
+        ProjectImg:"https://github.com/Shweta2003/Team_Predators/assets/65994349/2ef2979c-0c0a-4793-ac0f-a4347a12fd4f",
+        ProjectLink:"https://team-predators-racing.web.app/",
+        ProjectName:"TEAM PREDATORS Website",
         ProjectTech:"HTML,CSS,Javascript",
         Projectetc:"ReactJS | FirBase | EmailJS"
     },
@@ -58,9 +72,16 @@ const AllProject = [
     {
         ProjectImg:"https://user-images.githubusercontent.com/65994349/210221194-fec99eed-1eeb-426a-9ab0-452ac3295fd7.png",
         ProjectLink:"https://github.com/Shweta2003/Disney-Clone",
-        ProjectName:"Disney+HotStar (FrontPage)",
+        ProjectName:"Disney+HotStar (Landing Page)",
         ProjectTech:"Javascript",
         Projectetc:"HTML | CSS | NodeJS"
+    },
+    {
+        ProjectImg:"https://github.com/Shweta2003/Movie_Recommendation_System/assets/65994349/9b7ec8bc-5de5-4e1e-8239-581bad8be4ea",
+        ProjectLink:"https://movierecommendationsystem-auetnisny8mee5pa9mmsas.streamlit.app/",
+        ProjectName:"Movie Recommendation System",
+        ProjectTech:"Machine Learning",
+        Projectetc:ML | Streamlit | TBDB API"
     },
     {
         ProjectImg:"https://user-images.githubusercontent.com/65994349/211143087-9d4f86c1-4a05-45f2-922c-84800ed2c1aa.png",
@@ -84,13 +105,6 @@ const AllProject = [
         Projectetc:"C++ | Graphics Library(graphics.h)"
     },
     {
-        ProjectImg:"https://user-images.githubusercontent.com/65994349/198823590-5e721f12-f6af-4ff9-a6a5-47e3cf185621.png",
-        ProjectLink:"https://github.com/Shweta2003/Flipkart-Clone",
-        ProjectName:"FlipKart Responsive (FrontPage)",
-        ProjectTech:"CSS",
-        Projectetc:"HTML | CSS"
-    },
-    {
         ProjectImg:"https://user-images.githubusercontent.com/65994349/195893014-c23f3134-55d1-4cd4-9b4d-e84ef09fd100.png",
         ProjectLink:"https://github.com/Shweta2003/WANDERLUST",
         ProjectName:"WANDERLUST",
@@ -103,7 +117,8 @@ const AllProject = [
         ProjectName:"Learn Alphabets",
         ProjectTech:"Kotlin",
         Projectetc:"Android Studio | Kotlin | Android"
-    }
+    },
+
 ]
 
 export default AllProject;
