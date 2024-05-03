@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 import img from './Assets/img.jpg';
 import classes from './Home.module.css'
 import base_img from './Assets/profile_pic.png'
-import doc from "./Assets/resume.pdf"
+import doc from "./Assets/Shweta_Mandal_Resume.pdf"
 import ProjectComp from './ProjectComp';
 import AllProject from './AllProject';
 import certificate from './certificates';
