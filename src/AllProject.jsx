@@ -84,13 +84,6 @@ const AllProject = [
         Projectetc:"HTML | RapidAPI | CSS"
     },
     {
-        ProjectImg:"https://github.com/Shweta2003/Gym-Scheduler/assets/65994349/8b328e99-5399-46fe-9a0e-921a1d69093c",
-        ProjectLink:"https://gym-scheduler.vercel.app/",
-        ProjectName:"GYM SCHEDULER",
-        ProjectTech:"ReactJS",
-        Projectetc:"ReactJS | MySQL | Javascript"
-    },
-    {
         ProjectImg:"https://user-images.githubusercontent.com/65994349/210196499-ae0a327c-367a-4270-82de-1051ad74d77e.png",
         ProjectLink:"https://github.com/Shweta2003/todo-list",
         ProjectName:"TODO List",
